@@ -1,11 +1,13 @@
-// import CharacterCount from "./CharacterCount";
+import CharacterCount from "./Component/CharacterCount/CharacterCount";
 import PasswordHide from "./Component/PasswordHide/PasswordHide";
 import "./App.css";
 
 function App() {
   return (
-    // <CharacterCount />;
-    <PasswordHide />
+    <div>
+      <CharacterCount />
+      <PasswordHide />
+    </div>
   );
 }
 
